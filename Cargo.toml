@@ -1,0 +1,16 @@
+[package]
+name = "nvidia-monitor"
+version = "0.1.0"
+authors = ["Maxime Dréau <maxime@dreau.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nvml-wrapper = "0.5.0"
+systemstat = "0.1.5"
+size = "0.1"
+
+[[bin]]
+name = "nvidia-monitor"
+path = "main.rs"
